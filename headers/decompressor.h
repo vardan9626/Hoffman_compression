@@ -44,7 +44,7 @@ class decompressor{
             this->string_to_decompress+=s;
         }
         this->string_to_decompress = this->string_to_decompress.substr(0,string_size);
-        cout<<this->string_to_decompress<<endl;
+        //cout<<this->string_to_decompress<<endl;
         in_file.close();
         for(auto it: this->encoding){
             this->inv_encoding[it.second]=it.first;

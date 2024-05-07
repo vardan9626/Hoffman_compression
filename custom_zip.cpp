@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
             decompressor dc(argv[i]);
             dc.decompress();
             string data = dc.get_data();
-            cout<<data<<"\n------------\n";
+            cout<<data;
         }
     }
 
